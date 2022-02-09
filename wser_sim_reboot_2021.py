@@ -26,11 +26,6 @@ print('2022 Western States lottery simulator')
 print('# of sims:   ',f"{sims_count:,}")
 print('spots available: ',f"{spots}")
 print('ticket count: ',f"{tc:,}")
-print('Todd/Casey/Adam probability: ',str(round(round(round(stats.mean(lol[5])/counts[5],
-                            3),3)*round(round(stats.mean(lol[5])/counts[5],3)
-                            ,3)*round(round(stats.mean(lol[7])/counts[7],3)
-                            ,3),3)*100) + '%')
-print('Steve Sorenson probability:  100%')
 print('')
 print('years','\t','n','\t','min','\t','max','\t','avg','\t','prob')
 for x in range(len(lol)):
