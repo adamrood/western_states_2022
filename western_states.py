@@ -185,6 +185,3 @@ results_df = results_df.astype(dtype= {'ticket_count':'int'})
 results_df['create_date'] = datetime.now().date()
 results_df = results_df.reset_index(drop = True)
 results_df.to_csv('wser_wait_list.csv')
-
-
-np.random.choice(['Abel','Adam','Christina','John','Trevor'],5,replace = False)
