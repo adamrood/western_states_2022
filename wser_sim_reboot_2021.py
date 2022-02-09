@@ -1,8 +1,6 @@
 from collections import Counter
 import numpy as np
 import statistics as stats
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 years = np.arange(1,9)
 tickets = [2**(n-1) for n in np.arange(1,9)]
